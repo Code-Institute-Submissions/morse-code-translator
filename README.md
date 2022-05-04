@@ -26,7 +26,9 @@ The algorithm is very simple. Every character in the English language is substit
 
 Python provides a data structure called a `dictionary` which stores information in the form of key-value pairs which is very convenient for implementing a cipher such as a morse code. We can save the morse code chart in a dictionary where (key-value pairs) => (English Characters-Morse Code). The plaintext (English characters) takes the place of keys and the ciphertext (Morse code) forms the values of the corresponding keys. The values of keys can be accessed from the dictionary in the same way we access the values of an array through their index and vice versa.
 
-## Testing
+## Manual Testing
+
+I have manually tested this project by inserting messages using different types of characters from the Morse Code Chart and verifying I was getting the correct output in every case. 
 
 Test text to Morse and vice versa:
 ![test text](/images/text.png)
@@ -36,6 +38,14 @@ Test punctuation to Morse and vice versa:
 ![test punctuation](/images/punctuation.png)
 Test all to Morse and vice versa:
 ![test all](/images/all.png)
+
+## Validator Testing
+
+I used the PEP8 Pyhton Validator and no errors were returned from PEP8online.com
+
+![validation](/images/validation.png)
+
+[result](result.txt)
 
 ## Deployment
 
