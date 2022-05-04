@@ -83,3 +83,17 @@ def decrypt(message):
                 citext = ''
  
     return decipher
+
+# Hard-coded driver function to run the program
+def main():
+    message = "HELLO-WORLD"
+    result = encrypt(message.upper())
+    print (result)
+ 
+    message = ".... . .-.. .-.. --- -....- .-- --- .-. .-.. -.."
+    result = decrypt(message)
+    print (result)
+ 
+# Executes the main function
+if __name__ == '__main__':
+    main()
