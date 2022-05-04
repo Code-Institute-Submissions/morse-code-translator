@@ -2,6 +2,7 @@
 
 Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment. It is named for Samuel F. B. Morse, an inventor of the telegraph.
 
+To run the program type the following command in the terminal: `python run.py`
 ## Algorithm
 
 The algorithm is very simple. Every character in the English language is substituted by a series of ‘dots’ and ‘dashes’ or sometimes just singular ‘dot’ or ‘dash’ and vice versa. The Morse code used is just a small set of the International standard.
@@ -28,24 +29,24 @@ Python provides a data structure called a `dictionary` which stores information 
 ## Testing
 
 Test text to Morse and vice versa:
-![images/text.png]
+![test text](/images/text.png)
 Test numbers to Morse and vice versa:
-![images/numbers.png]
+![test numbers](/images/numbers.png)
 Test punctuation to Morse and vice versa:
-![images/punctuation.png]
+![test punctuation](/images/punctuation.png)
 Test all to Morse and vice versa:
-![images/all.png]
+![test all](/images/all.png)
 
 ## Deployment
 
 This project was deployed using Code Institute's mock terminal for Heroku.
 
-* Steps for deployment:
-       * Fork or clone this repository
-       * Create a new Heroku app
-       * Set the buildbacks to `Python` and `NodeJS` in that order
-       * Link the Heroku app to the repository
-       * Click on Deploy
+Steps for deployment:
+* Fork or clone this repository
+* Create a new Heroku app
+* Set the buildbacks to `Python` and `NodeJS` in that order
+* Link the Heroku app to the repository
+* Click on Deploy
 
 ## Credits
 
