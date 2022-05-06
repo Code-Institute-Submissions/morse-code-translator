@@ -2,7 +2,7 @@
 
 Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment. It is named for Samuel F. B. Morse, an inventor of the telegraph.
 
-To run the program type the following command in the terminal: `python run.py`
+To run the program type the following command in the terminal: `python3 run.py`
 ## Algorithm
 
 The algorithm is very simple. Every character in the English language is substituted by a series of ‘dots’ and ‘dashes’ or sometimes just singular ‘dot’ or ‘dash’ and vice versa. The Morse code used is just a small set of the International standard.
@@ -49,14 +49,15 @@ I used the PEP8 Pyhton Validator and no errors were returned from PEP8online.com
 
 ## Deployment
 
-This project was deployed using Code Institute's mock terminal for Heroku.
-
 Steps for deployment:
-* Fork or clone this repository
-* Create a new Heroku app
+* Run the command `heroku login -i` and login when prompted
+* Then run the command `heroku create your_app_name_here` to create a new app, replacing `your_app_name_here` with the name you want to give your app. This will create a new Heroku app and link it to your Gitpod terminal
+* You can then access the app via the Heroku dashboard and set up your config vars
+* Add Config Var with key = PORT and value = 8000
 * Set the buildbacks to `Python` and `NodeJS` in that order
-* Link the Heroku app to the repository
-* Click on Deploy
+* Via the Heroku dashboard, click on Open App to see if the mock terminal is up and running. No errors shown:
+
+![terminal](/images/terminal.png)
 
 ## Credits
 
